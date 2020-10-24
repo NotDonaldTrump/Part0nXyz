@@ -1,0 +1,39 @@
+state: enabled
+email: dylan@part0n.xyz
+fullname: Parton
+title: Owner
+access:
+  site:
+    login: 'true'
+  admin:
+    super: 'true'
+    login: 'true'
+    cache: 'true'
+    configuration: 'true'
+    configuration_system: 'true'
+    configuration_site: 'true'
+    configuration_media: 'true'
+    configuration_info: 'true'
+    settings: 'true'
+    pages: 'true'
+    maintenance: 'true'
+    statistics: 'true'
+    plugins: 'true'
+    themes: 'true'
+    tools: 'true'
+    users: 'true'
+  admin-addon-user-manager:
+    users: 'true'
+    groups: 'true'
+    users_expert: 'true'
+hashed_password: $2y$10$H6SUuhEhco5aAgUx16/q3.5u4QNiT.DPzsg.hTZ5q/qj6EENPDtES
+_json:
+  avatar: '[]'
+  state: '"enabled"'
+  hashed_password: '"$2y$10$H6SUuhEhco5aAgUx16\/q3.5u4QNiT.DPzsg.hTZ5q\/qj6EENPDtES"'
+password: null
+language: en
+twofa_enabled: false
+twofa_secret: L77IN7L3EA3POJWUOTY27B7AGY5XULAL
+groups:
+  - Owner

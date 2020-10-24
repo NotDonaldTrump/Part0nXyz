@@ -1,0 +1,5 @@
+enabled: true
+default_list_style: grid
+pagination:
+  per_page: '20'
+custom_permissions: null
